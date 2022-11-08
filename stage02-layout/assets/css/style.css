@@ -1,0 +1,112 @@
+:root {
+  --bg-color: #2f2e41;
+  --primary-color: #ffffff;
+  --secondary-color: #c2c2c2;
+  --green-color: #00bfa6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+span {
+  font-weight: bold;
+  color: var(--green-color);
+}
+
+p {
+  color: var(--secondary-color);
+  font-size: 1.6rem;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 108.3rem;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 7.1rem 0 2.3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10.1rem;
+}
+
+.secondary-font {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.menu ul {
+  display: flex;
+  gap: 6.4rem;
+  list-style: none;
+}
+
+.menu ul li a {
+  color: var(--primary-color);
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-text {
+  max-width: 60.4rem;
+  text-align: center;
+}
+
+.main-text h2 {
+  margin-bottom: 5.9rem;
+  white-space: nowrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  width: 56.8rem;
+  border-top: 0.2rem solid #00bfa6;
+  padding-top: 2.7rem;
+  text-align: center;
+}
+
+.footer-text p {
+  font-size: 1.4rem;
+}
+
+#padlock {
+  position: fixed;
+  left: 2rem;
+  bottom: 2rem;
+}
